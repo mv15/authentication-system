@@ -1,0 +1,22 @@
+<!-- <h1>Sign in</h1> -->
+<link rel="stylesheet" href="/css/sign.css">
+
+<p>
+    <a href="/users/auth/google">
+        Google LogIn / SignUp
+    </a>
+</p>
+
+<form action="/users/create-session" method="POST"> 
+    <input type="email" name="email" placeholder="Email" required> <br>
+    <input type="password" name="password" placeholder="Password" required> <br>
+    <input type="submit" value="Sign In"> <br>
+</form>
+
+<!-- TODO - RESET Password -->
+<p>
+    <a href="/users/forgot-password">
+        Forgot Password ?
+    </a>
+</p>
+
